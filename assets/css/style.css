@@ -327,6 +327,26 @@ h2 + .profile-picture {
 	display: block;
 }
 
+/* Animations */
+
+.link-li, .link-li a {
+	transition:all 1.75s ease-in-out;
+}
+
+/* .link-li a {
+	font-size: 16pt;
+} */
+
+.link-li:hover {
+	/* background-color: red; */
+	transform: scale(2);
+}
+
+.link-li:active a {
+	/* transform: font-size 64pt; */
+	font-size: 32pt;
+}
+
 /*closes MODULES*/
 
 /*- 4 - STATE */
